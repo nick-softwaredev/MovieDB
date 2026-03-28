@@ -69,8 +69,41 @@ struct AppDependencies {
       posterURLBuilder: posterURLBuilder
     )
   }
+  
+  func makeLiveAppCoordinator(window: UIWindow) -> AppCoordinator {
+    let navigationController = UINavigationController()
+    navigationController.navigationBar.prefersLargeTitles = true
+    let moviesListRepository = LiveMoviesListRepository(
+      networkClient: networkClient,
+      configuration: configuration
+    )
+    let moviesListCoordinator = MoviesListCoordinator(
+      repository: moviesListRepository,
+      imageLoader: imageLoader,
+      posterURLBuilder: posterURLBuilder,
+      navigationController: navigationController
+    )
+    let movieDetailsRepository = LiveMovieDetailsRepository(
+      networkClient: networkClient,
+      configuration: configuration
+    )
+    let movieDetailsCoordinator = MovieDetailsCoordinator(
+      navigationController: navigationController,
+      repository: movieDetailsRepository,
+      imageLoader: imageLoader,
+      posterURLBuilder: posterURLBuilder
+    )
 
-  func makeAppCoordinator(window: UIWindow) -> AppCoordinator {
+    return AppCoordinator(
+      window: window,
+      navigationController: navigationController,
+      routeHandler: routeHandler,
+      moviesListCoordinator: moviesListCoordinator,
+      movieDetailsCoordinator: movieDetailsCoordinator
+    )
+  }
+
+  func makeMockAppCoordinator(window: UIWindow) -> AppCoordinator {
     let navigationController = UINavigationController()
     navigationController.navigationBar.prefersLargeTitles = true
     let moviesListRepository = MockMoviesListRepository(movieCatalog: movieCatalog)

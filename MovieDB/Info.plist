@@ -17,6 +17,8 @@
 	</array>
 	<key>TMDBAPIKey</key>
 	<string>0ed629f7bcda7f4d9c668cd1ae1c891c</string>
+	<key>TMDBReadAccessToken</key>
+	<string>eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwZWQ2MjlmN2JjZGE3ZjRkOWM2NjhjZDFhZTFjODkxYyIsIm5iZiI6MTc3NDY1NzEzNC45NjUsInN1YiI6IjY5YzcxZTZlNTk4NTdjZGZiMWEzNDNmNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.CMotuPa3huvBykdzlFa6Wygf-UBl1wigvMsuX4jndi8</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
