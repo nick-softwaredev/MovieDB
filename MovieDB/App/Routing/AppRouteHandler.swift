@@ -9,14 +9,14 @@ import UIKit
 
 @MainActor
 protocol AppRouteHandling {
-  func handle(url: URL, from navigationController: UINavigationController)
+  func route(for url: URL) -> AppRoute?
 }
 
 @MainActor
 struct AppRouteHandler: AppRouteHandling {
   let parser: DeepLinkParsing
 
-    let presenter = navigationController.presentedViewController ?? navigationController
-    presenter.present(alert, animated: true)
+  func route(for url: URL) -> AppRoute? {
+    parser.parse(url: url)
   }
 }

@@ -8,6 +8,8 @@
 import SwiftUI
 import Combine
 
+// NOTE: not using AsyncImage native to have shared and resuable solution across UIKit / Swift UI
+
 @MainActor
 final class RemoteImageViewModel: ObservableObject {
   @Published private(set) var image: UIImage?
