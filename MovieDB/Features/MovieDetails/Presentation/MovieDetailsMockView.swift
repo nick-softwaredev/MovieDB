@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MovieDetailsView<ViewModel: MovieDetailsViewModeling>: View {
+  private let posterWidth: CGFloat = 260
   @StateObject private var viewModel: ViewModel
   private let imageLoader: ImageLoading
   private let posterURLBuilder: PosterURLBuilding
@@ -39,8 +40,7 @@ struct MovieDetailsView<ViewModel: MovieDetailsViewModeling>: View {
                     ProgressView()
                   }
               }
-              .aspectRatio(2 / 3, contentMode: .fit)
-              .frame(maxWidth: 280)
+              .frame(width: posterWidth, height: posterWidth * 1.5)
               .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
               .frame(maxWidth: .infinity, alignment: .center)
             }
