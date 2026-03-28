@@ -2,6 +2,7 @@ import Foundation
 import Testing
 @testable import MovieDB
 
+@MainActor
 struct MoviesListRepositoryTests {
   @Test
   func fetchPopularMoviesReturnsRequestedPageSlice() async throws {
