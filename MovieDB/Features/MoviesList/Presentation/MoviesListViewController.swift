@@ -74,7 +74,7 @@ final class MoviesListViewController: UIViewController {
     case .loaded:
       showContent()
     case let .failed(error):
-      showError(message: errorMessage(for: error))
+      showError(message: error.userMessage)
     }
   }
 
@@ -161,25 +161,6 @@ final class MoviesListViewController: UIViewController {
     errorMessageLabel.text = message
     tableView.isHidden = true
     errorStackView.isHidden = false
-  }
-
-  private func errorMessage(for error: AppError) -> String {
-    switch error {
-    case .networkUnavailable:
-      return "The network is unavailable right now. Please try again."
-    case .invalidResponse:
-      return "The movie list response was invalid. Please try again."
-    case .decodingFailed:
-      return "The movie list could not be decoded. Please try again."
-    case .invalidRequest:
-      return "The request could not be created. Please try again."
-    case .invalidDeepLink:
-      return "The incoming deep link is invalid."
-    case let .missingConfiguration(key):
-      return "Missing configuration value: \(key)."
-    case let .unknown(message):
-      return message
-    }
   }
 
   @objc

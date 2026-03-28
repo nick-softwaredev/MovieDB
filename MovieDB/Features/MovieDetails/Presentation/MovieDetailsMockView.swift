@@ -7,34 +7,87 @@
 
 import SwiftUI
 
-struct MovieDetailsMockView: View {
-  let movieDetails: MovieDetails
+struct MovieDetailsView<ViewModel: MovieDetailsViewModeling>: View {
+  @StateObject private var viewModel: ViewModel
+  private let imageLoader: ImageLoading
+  private let posterURLBuilder: PosterURLBuilding
+
+  init(
+    viewModel: ViewModel,
+    imageLoader: ImageLoading,
+    posterURLBuilder: PosterURLBuilding
+  ) {
+    _viewModel = StateObject(wrappedValue: viewModel)
+    self.imageLoader = imageLoader
+    self.posterURLBuilder = posterURLBuilder
+  }
 
   var body: some View {
-    ScrollView {
-      VStack(alignment: .leading, spacing: 16) {
-        Text(movieDetails.title)
-          .font(.largeTitle.bold())
+    Group {
+      switch viewModel.state {
+      case .idle, .loading:
+        ProgressView()
+          .frame(maxWidth: .infinity, maxHeight: .infinity)
+      case let .loaded(movieDetails):
+        ScrollView {
+          VStack(alignment: .leading, spacing: 16) {
+            if let posterURL = posterURLBuilder.makePosterURL(path: movieDetails.posterPath) {
+              RemoteImageView(url: posterURL, imageLoader: imageLoader) {
+                RoundedRectangle(cornerRadius: 16)
+                  .fill(Color(.tertiarySystemFill))
+                  .overlay {
+                    ProgressView()
+                  }
+              }
+              .frame(height: 280)
+              .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+            }
 
-        Text(releaseDateText)
-          .font(.subheadline)
-          .foregroundStyle(.secondary)
+            Text(movieDetails.title)
+              .font(.largeTitle.bold())
 
-        Text("Rating: \(movieDetails.rating, specifier: "%.1f")")
-          .font(.headline)
+            Text(releaseDateText(for: movieDetails))
+              .font(.subheadline)
+              .foregroundStyle(.secondary)
 
-        Text(movieDetails.overview)
-          .font(.body)
-          .foregroundStyle(.primary)
+            Text("Rating: \(movieDetails.rating, specifier: "%.1f")")
+              .font(.headline)
+
+            Text(movieDetails.overview)
+              .font(.body)
+              .foregroundStyle(.primary)
+          }
+          .frame(maxWidth: .infinity, alignment: .leading)
+          .padding(24)
+        }
+      case let .failed(error):
+        VStack(spacing: 12) {
+          Text("Couldn’t load movie details")
+            .font(.title3.weight(.semibold))
+
+          Text(error.userMessage)
+            .font(.body)
+            .foregroundStyle(.secondary)
+            .multilineTextAlignment(.center)
+
+          Button("Retry") {
+            Task {
+              await viewModel.retry()
+            }
+          }
+          .buttonStyle(.borderedProminent)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
       }
-      .frame(maxWidth: .infinity, alignment: .leading)
-      .padding(24)
     }
     .background(Color(.systemBackground))
     .navigationBarTitleDisplayMode(.inline)
+    .task {
+      await viewModel.onAppear()
+    }
   }
 
-  private var releaseDateText: String {
+  private func releaseDateText(for movieDetails: MovieDetails) -> String {
     guard let releaseDate = movieDetails.releaseDate else {
       return "Release date unavailable"
     }

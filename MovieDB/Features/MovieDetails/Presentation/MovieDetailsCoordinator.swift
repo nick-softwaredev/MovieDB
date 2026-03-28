@@ -11,34 +11,36 @@ import UIKit
 @MainActor
 final class MovieDetailsCoordinator {
   private let navigationController: UINavigationController
-  private let movieCatalog: MockMovieCataloging
+  private let repository: MovieDetailsRepository
+  private let imageLoader: ImageLoading
+  private let posterURLBuilder: PosterURLBuilding
 
   init(
     navigationController: UINavigationController,
-    movieCatalog: MockMovieCataloging
+    repository: MovieDetailsRepository,
+    imageLoader: ImageLoading,
+    posterURLBuilder: PosterURLBuilding
   ) {
     self.navigationController = navigationController
-    self.movieCatalog = movieCatalog
+    self.repository = repository
+    self.imageLoader = imageLoader
+    self.posterURLBuilder = posterURLBuilder
   }
 
   func showMovieDetails(for movieID: Int, animated: Bool) {
-    let details = movieCatalog.details(for: movieID) ?? fallbackMovieDetails(for: movieID)
-    let detailsView = MovieDetailsMockView(movieDetails: details)
+    let viewModel = MovieDetailsViewModel(
+      movieID: movieID,
+      repository: repository
+    )
+    let detailsView = MovieDetailsView(
+      viewModel: viewModel,
+      imageLoader: imageLoader,
+      posterURLBuilder: posterURLBuilder
+    )
     let hostingController = UIHostingController(rootView: detailsView)
-    hostingController.title = details.title
+    hostingController.title = "Movie Details"
     hostingController.navigationItem.largeTitleDisplayMode = .never
 
     navigationController.pushViewController(hostingController, animated: animated)
-  }
-
-  private func fallbackMovieDetails(for movieID: Int) -> MovieDetails {
-    MovieDetails(
-      id: movieID,
-      title: "Unknown Movie",
-      overview: "No mocked details are available for this movie id yet.",
-      posterPath: nil,
-      releaseDate: nil,
-      rating: 0
-    )
   }
 }

@@ -80,9 +80,12 @@ struct AppDependencies {
       posterURLBuilder: posterURLBuilder,
       navigationController: navigationController
     )
+    let movieDetailsRepository = MockMovieDetailsRepository(movieCatalog: movieCatalog)
     let movieDetailsCoordinator = MovieDetailsCoordinator(
       navigationController: navigationController,
-      movieCatalog: movieCatalog
+      repository: movieDetailsRepository,
+      imageLoader: imageLoader,
+      posterURLBuilder: posterURLBuilder
     )
 
     return AppCoordinator(
