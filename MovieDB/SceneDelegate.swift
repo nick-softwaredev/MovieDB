@@ -21,11 +21,18 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     guard let windowScene = scene as? UIWindowScene else { return }
 
     let window = UIWindow(windowScene: windowScene)
-//    let dependencies = AppDependencies.mock()
-//    let coordinator = dependencies.makeMockAppCoordinator(window: window)
-  
-    let dependencies = AppDependencies.live()
-    let coordinator = dependencies.makeLiveAppCoordinator(window: window)
+    let mode = AppMode.current()
+    let dependencies: AppDependencies
+    let coordinator: AppCoordinator
+
+    switch mode {
+    case .live:
+      dependencies = AppDependencies.live()
+      coordinator = dependencies.makeLiveAppCoordinator(window: window)
+    case .mock:
+      dependencies = AppDependencies.mock()
+      coordinator = dependencies.makeMockAppCoordinator(window: window)
+    }
 
     self.window = window
     self.dependencies = dependencies
