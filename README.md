@@ -1,6 +1,6 @@
 # 🎬 MovieDB
 
-Small **iOS-only** app built for the technical assignment around **popular movies**, **movie details**, **deep linking**, and **clean architecture choices**.
+Small **iOS-only** app built lookup of **popular movies**, **movie details**, **deep linking**, and **clean architecture choices**.
 
 - Minimum deployment target: **iOS 18.0**
 
@@ -9,7 +9,7 @@ Small **iOS-only** app built for the technical assignment around **popular movie
 Two schemes are provided:
 
 - `MovieDB`: live TMDB-backed mode
-- `MovieDB-Test`: mock mode
+- `MovieDB-Test`: mock mode, local only data
 
 How they work:
 - scheme sets `APP_MODE`
