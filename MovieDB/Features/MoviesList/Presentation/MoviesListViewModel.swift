@@ -65,15 +65,18 @@ final class MoviesListViewModel: MoviesListViewModeling {
     }
 
     guard let nextPage = paginator.startLoadingNextPage() else { return }
+    AppLogger.info("Loading movies page \(nextPage)", category: "Pagination")
 
     do {
       let newMovies = try await repository.fetchPopularMovies(page: nextPage)
 
       paginator.finishLoading(receivedItemCount: newMovies.count, loadedPage: nextPage)
       movies.append(contentsOf: newMovies)
+      AppLogger.info("Loaded movies page \(nextPage) with \(newMovies.count) items", category: "Pagination")
       state = .loaded(movies)
     } catch let error as AppError {
       paginator.finishLoadingAfterError()
+      AppLogger.error("Failed to load movies page \(nextPage): \(error.userMessage)", category: "Pagination")
       if error == .networkUnavailable {
         state = .noNetworkConnection
       } else if movies.isEmpty {
@@ -84,6 +87,7 @@ final class MoviesListViewModel: MoviesListViewModeling {
     } catch {
       paginator.finishLoadingAfterError()
       let appError = AppError.unknown(message: error.localizedDescription)
+      AppLogger.error("Failed to load movies page \(nextPage): \(appError.userMessage)", category: "Pagination")
       if movies.isEmpty {
         state = .failed(appError)
       } else {

@@ -39,8 +39,10 @@ struct MovieDetailsView<ViewModel: MovieDetailsViewModeling>: View {
                     ProgressView()
                   }
               }
-              .frame(height: 280)
+              .aspectRatio(2 / 3, contentMode: .fit)
+              .frame(maxWidth: 280)
               .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+              .frame(maxWidth: .infinity, alignment: .center)
             }
 
             Text(movieDetails.title)

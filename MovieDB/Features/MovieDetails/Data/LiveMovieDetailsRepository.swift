@@ -12,8 +12,10 @@ struct LiveMovieDetailsRepository: MovieDetailsRepository {
   let configuration: AppConfiguration
 
   func fetchMovieDetails(for movieID: Int) async throws -> MovieDetails {
+    AppLogger.info("Loading movie details for id \(movieID)", category: "MovieDetails")
     let endpoint = TMDBMovieEndpoint.details(configuration: configuration, movieID: movieID)
     let dto: MovieDetailsDTO = try await networkClient.send(endpoint)
+    AppLogger.info("Loaded movie details for id \(movieID)", category: "MovieDetails")
 
     return MovieDetails(
       id: dto.id,

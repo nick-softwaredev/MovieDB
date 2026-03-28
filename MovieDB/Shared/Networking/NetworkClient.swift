@@ -30,12 +30,14 @@ struct URLSessionNetworkClient: NetworkClient {
     do {
       return try JSONDecoder().decode(Response.self, from: data)
     } catch {
+      AppLogger.error("Decoding failed for \(endpoint.path)", category: "Network")
       throw AppError.decodingFailed
     }
   }
 
   func send(_ endpoint: APIEndpoint) async throws -> Data {
     guard networkMonitor.isConnected else {
+      AppLogger.error("No network connection for \(endpoint.path)", category: "Network")
       throw AppError.networkUnavailable
     }
 
@@ -45,8 +47,10 @@ struct URLSessionNetworkClient: NetworkClient {
     do {
       (data, response) = try await session.data(for: request)
     } catch let error as URLError where error.code == .notConnectedToInternet {
+      AppLogger.error("No network connection while requesting \(endpoint.path)", category: "Network")
       throw AppError.networkUnavailable
     } catch {
+      AppLogger.error("Request failed for \(endpoint.path): \(error.localizedDescription)", category: "Network")
       throw error
     }
 
@@ -54,12 +58,11 @@ struct URLSessionNetworkClient: NetworkClient {
       let httpResponse = response as? HTTPURLResponse,
       (200...299).contains(httpResponse.statusCode)
     else {
+      AppLogger.error("Invalid response for \(endpoint.path)", category: "Network")
       throw AppError.invalidResponse
     }
 
-    if let rawResponse = String(data: data, encoding: .utf8) {
-      print("Raw response for \(endpoint.path):\n\(rawResponse)")
-    }
+    AppLogger.info("Request succeeded for \(endpoint.path)", category: "Network")
 
     return data
   }
