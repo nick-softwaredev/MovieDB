@@ -58,7 +58,7 @@ struct MovieDetailsViewModelTests {
     let viewModel = MovieDetailsViewModel(movieID: 603, repository: repository)
 
     await viewModel.onAppear()
-    #expect(movieDetailsError(from: viewModel.state) == .networkUnavailable)
+    #expect(viewModel.state == .noNetworkConnection)
 
     repository.result = .success(
       MovieDetails(
@@ -80,11 +80,6 @@ struct MovieDetailsViewModelTests {
 
     #expect(details.id == 603)
   }
-}
-
-private func movieDetailsError(from state: MovieDetailsScreenState) -> AppError? {
-  guard case let .failed(error) = state else { return nil }
-  return error
 }
 
 @MainActor

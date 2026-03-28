@@ -14,9 +14,14 @@ protocol NetworkClient {
 
 struct URLSessionNetworkClient: NetworkClient {
   private let session: URLSession
+  private let networkMonitor: NetworkMonitoring
 
-  init(session: URLSession = .shared) {
+  init(
+    session: URLSession = .shared,
+    networkMonitor: NetworkMonitoring
+  ) {
     self.session = session
+    self.networkMonitor = networkMonitor
   }
 
   func send<Response: Decodable>(_ endpoint: APIEndpoint) async throws -> Response {
@@ -30,14 +35,30 @@ struct URLSessionNetworkClient: NetworkClient {
   }
 
   func send(_ endpoint: APIEndpoint) async throws -> Data {
+    guard networkMonitor.isConnected else {
+      throw AppError.networkUnavailable
+    }
+
     let request = try makeRequest(for: endpoint)
-    let (data, response) = try await session.data(for: request)
+    let (data, response): (Data, URLResponse)
+
+    do {
+      (data, response) = try await session.data(for: request)
+    } catch let error as URLError where error.code == .notConnectedToInternet {
+      throw AppError.networkUnavailable
+    } catch {
+      throw error
+    }
 
     guard
       let httpResponse = response as? HTTPURLResponse,
       (200...299).contains(httpResponse.statusCode)
     else {
       throw AppError.invalidResponse
+    }
+
+    if let rawResponse = String(data: data, encoding: .utf8) {
+      print("Raw response for \(endpoint.path):\n\(rawResponse)")
     }
 
     return data

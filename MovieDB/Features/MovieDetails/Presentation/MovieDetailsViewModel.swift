@@ -39,7 +39,7 @@ final class MovieDetailsViewModel: MovieDetailsViewModeling {
       let details = try await repository.fetchMovieDetails(for: movieID)
       state = .loaded(details)
     } catch let error as AppError {
-      state = .failed(error)
+      state = error == .networkUnavailable ? .noNetworkConnection : .failed(error)
     } catch {
       state = .failed(.unknown(message: error.localizedDescription))
     }

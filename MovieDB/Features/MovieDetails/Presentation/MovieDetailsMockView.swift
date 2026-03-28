@@ -60,6 +60,24 @@ struct MovieDetailsView<ViewModel: MovieDetailsViewModeling>: View {
           .frame(maxWidth: .infinity, alignment: .leading)
           .padding(24)
         }
+      case .noNetworkConnection:
+        VStack(spacing: 12) {
+          Text("No internet connection")
+            .font(.title3.weight(.semibold))
+
+          Text("Please check your network and try again.")
+            .font(.body)
+            .foregroundStyle(.secondary)
+            .multilineTextAlignment(.center)
+
+          Button("Retry") {
+            Task {
+              await viewModel.retry()
+            }
+          }
+          .buttonStyle(.borderedProminent)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
       case let .failed(error):
         VStack(spacing: 12) {
           Text("Couldn’t load movie details")

@@ -74,7 +74,9 @@ final class MoviesListViewModel: MoviesListViewModeling {
       state = .loaded(movies)
     } catch let error as AppError {
       paginator.finishLoadingAfterError()
-      if movies.isEmpty {
+      if error == .networkUnavailable {
+        state = .noNetworkConnection
+      } else if movies.isEmpty {
         state = .failed(error)
       } else {
         state = .loaded(movies)

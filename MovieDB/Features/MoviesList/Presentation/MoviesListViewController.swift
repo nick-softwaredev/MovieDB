@@ -15,11 +15,13 @@ final class MoviesListViewController: UIViewController {
   private let onRouteRequested: (AppRoute) -> Void
 
   private let tableView = UITableView(frame: .zero, style: .plain)
+  private let refreshControl = UIRefreshControl()
   private let loadingView = UIActivityIndicatorView(style: .large)
   private let errorStackView = UIStackView()
   private let errorTitleLabel = UILabel()
   private let errorMessageLabel = UILabel()
   private let retryButton = UIButton(type: .system)
+  private var refreshMinimumEndTime: Date?
 
   init(
     viewModel: MoviesListViewModeling,
@@ -73,6 +75,8 @@ final class MoviesListViewController: UIViewController {
       showLoading()
     case .loaded:
       showContent()
+    case .noNetworkConnection:
+      showError(message: "No internet connection. Please check your network and try again.")
     case let .failed(error):
       showError(message: error.userMessage)
     }
@@ -86,6 +90,8 @@ final class MoviesListViewController: UIViewController {
     tableView.showsVerticalScrollIndicator = false
     tableView.contentInsetAdjustmentBehavior = .automatic
     tableView.contentInset = UIEdgeInsets(top: 12, left: 0, bottom: 24, right: 0)
+    refreshControl.addTarget(self, action: #selector(refreshTriggered), for: .valueChanged)
+    tableView.refreshControl = refreshControl
     tableView.dataSource = self
     tableView.delegate = self
     tableView.register(MoviesListTableViewCell.self, forCellReuseIdentifier: MoviesListTableViewCell.reuseIdentifier)
@@ -145,12 +151,14 @@ final class MoviesListViewController: UIViewController {
 
   private func showLoading() {
     loadingView.startAnimating()
+    endRefreshingIfNeeded()
     tableView.isHidden = true
     errorStackView.isHidden = true
   }
 
   private func showContent() {
     loadingView.stopAnimating()
+    endRefreshingIfNeeded()
     errorStackView.isHidden = true
     tableView.isHidden = false
     tableView.reloadData()
@@ -158,6 +166,7 @@ final class MoviesListViewController: UIViewController {
 
   private func showError(message: String) {
     loadingView.stopAnimating()
+    endRefreshingIfNeeded()
     errorMessageLabel.text = message
     tableView.isHidden = true
     errorStackView.isHidden = false
@@ -168,6 +177,31 @@ final class MoviesListViewController: UIViewController {
     Task {
       await viewModel.retry()
     }
+  }
+
+  @objc
+  private func refreshTriggered() {
+    refreshMinimumEndTime = Date().addingTimeInterval(0.5)
+    Task {
+      await viewModel.retry()
+    }
+  }
+
+  private func endRefreshingIfNeeded() {
+    guard refreshControl.isRefreshing else { return }
+
+    if let refreshMinimumEndTime, refreshMinimumEndTime > Date() {
+      let delay = refreshMinimumEndTime.timeIntervalSinceNow
+      DispatchQueue.main.asyncAfter(deadline: .now() + delay) { [weak self] in
+        guard let self else { return }
+        self.refreshControl.endRefreshing()
+        self.refreshMinimumEndTime = nil
+      }
+      return
+    }
+
+    refreshControl.endRefreshing()
+    refreshMinimumEndTime = nil
   }
 }
 

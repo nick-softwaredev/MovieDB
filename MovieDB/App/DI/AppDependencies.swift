@@ -12,6 +12,7 @@ struct AppDependencies {
   let configuration: AppConfiguration
   let routeHandler: AppRouteHandling
   let movieCatalog: MockMovieCataloging
+  let networkMonitor: NetworkMonitoring
   let networkClient: NetworkClient
   let imageLoader: ImageLoading
   let posterURLBuilder: PosterURLBuilding
@@ -20,7 +21,8 @@ struct AppDependencies {
     let configuration = AppConfiguration.load()
     let routeHandler = AppRouteHandler(parser: DeepLinkParser())
     let movieCatalog = MockMovieCatalog()
-    let networkClient = URLSessionNetworkClient()
+    let networkMonitor = DefaultNetworkMonitor()
+    let networkClient = URLSessionNetworkClient(networkMonitor: networkMonitor)
     let imageLoader = DefaultImageLoader(networkClient: networkClient)
     let posterURLBuilder = TMDBPosterURLBuilder(imageBaseURL: configuration.tmdbImageBaseURL)
 
@@ -28,6 +30,7 @@ struct AppDependencies {
       configuration: configuration,
       routeHandler: routeHandler,
       movieCatalog: movieCatalog,
+      networkMonitor: networkMonitor,
       networkClient: networkClient,
       imageLoader: imageLoader,
       posterURLBuilder: posterURLBuilder
@@ -38,7 +41,8 @@ struct AppDependencies {
     let configuration = AppConfiguration.load()
     let routeHandler = AppRouteHandler(parser: DeepLinkParser())
     let movieCatalog = MockMovieCatalog()
-    let networkClient = URLSessionNetworkClient()
+    let networkMonitor = MockNetworkMonitor()
+    let networkClient = URLSessionNetworkClient(networkMonitor: networkMonitor)
 
     let mockPosterURLPairs: [(String, URL)] = movieCatalog.popularMovies.compactMap { movie in
       guard
@@ -64,6 +68,7 @@ struct AppDependencies {
       configuration: configuration,
       routeHandler: routeHandler,
       movieCatalog: movieCatalog,
+      networkMonitor: networkMonitor,
       networkClient: networkClient,
       imageLoader: imageLoader,
       posterURLBuilder: posterURLBuilder

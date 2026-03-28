@@ -72,7 +72,7 @@ struct MoviesListViewModelTests {
     let viewModel = MoviesListViewModel(repository: repository)
 
     await viewModel.onViewDidLoad()
-    #expect(failedError(from: viewModel.state) == .networkUnavailable)
+    #expect(viewModel.state == .noNetworkConnection)
 
     repository.failures = [:]
     await viewModel.retry()
@@ -86,11 +86,6 @@ struct MoviesListViewModelTests {
 private func loadedMovies(from state: MoviesListScreenState) -> [MovieSummary]? {
   guard case let .loaded(movies) = state else { return nil }
   return movies
-}
-
-private func failedError(from state: MoviesListScreenState) -> AppError? {
-  guard case let .failed(error) = state else { return nil }
-  return error
 }
 
 @MainActor
