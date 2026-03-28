@@ -29,6 +29,7 @@ struct MoviesListPaginatorTests {
   }
 }
 
+@MainActor
 struct DefaultImageLoaderTests {
   @Test
   func loadImageDecodesAndCachesImage() async throws {
@@ -57,6 +58,7 @@ struct DefaultImageLoaderTests {
   }
 }
 
+@MainActor
 private func makeImageData(color: UIColor) -> Data {
   let renderer = UIGraphicsImageRenderer(size: CGSize(width: 4, height: 4))
   let image = renderer.image { context in
