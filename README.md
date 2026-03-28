@@ -26,21 +26,15 @@ Run in Xcode:
 
 Deep link example:
 
-```bash
-xcrun simctl openurl booted "movieapp://moviedetails/603"
-```
+Test target 
+movieapp://moviedetails/603
+
+Live target 
+movieapp://moviedetails/[movideId]
 
 Run unit tests:
 
 - Xcode: `Product > Test`
-- CLI:
-
-```bash
-xcodebuild test \
-  -project MovieDB.xcodeproj \
-  -scheme MovieDB-Test \
-  -destination 'platform=iOS Simulator,name=iPhone 16'
-```
 
 ## 🧪 Tests
 
