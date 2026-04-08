@@ -1,0 +1,30 @@
+{
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/App/Routing/AppRoute.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRoute.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRoute.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRoute.dia",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRoute.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRoute.swiftdeps"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/App/Routing/AppRouteHandler.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRouteHandler.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRouteHandler.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRouteHandler.dia",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRouteHandler.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRouteHandler.swiftdeps"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/App/Routing/DeepLinkParser.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/DeepLinkParser.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/DeepLinkParser.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/DeepLinkParser.dia",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/DeepLinkParser.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/DeepLinkParser.swiftdeps"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MovieDetails/Data/LiveMovieDetailsRepository.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMovieDetailsRepository.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMovieDetailsRepository.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMovieDetailsRepository.dia",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMovieDetailsRepository.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMovieDetailsRepository.swiftdeps"
+  }
+}

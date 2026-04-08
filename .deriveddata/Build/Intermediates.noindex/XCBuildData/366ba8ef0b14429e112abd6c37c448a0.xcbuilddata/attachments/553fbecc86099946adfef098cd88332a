@@ -1,0 +1,499 @@
+{
+  "" : {
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDB-primary.dia",
+    "emit-module-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDB-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDB-primary-emit-module.dia",
+    "pch" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDB-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDB-primary.swiftdeps"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/App/Application/AppCoordinator.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppCoordinator.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppCoordinator.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppCoordinator.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppCoordinator.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppCoordinator.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppCoordinator.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppCoordinator.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppCoordinator~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/App/Configuration/AppConfiguration.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppConfiguration.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppConfiguration.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppConfiguration.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppConfiguration.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppConfiguration.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppConfiguration.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppConfiguration.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppConfiguration~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/App/DI/AppDependencies.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDependencies.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDependencies.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDependencies.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDependencies.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDependencies.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDependencies.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDependencies.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDependencies~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/App/DI/AppMode.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppMode.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppMode.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppMode.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppMode.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppMode.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppMode.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppMode.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppMode~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/App/Routing/AppRoute.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRoute.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRoute.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRoute.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRoute.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRoute.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRoute.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRoute.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRoute~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/App/Routing/AppRouteHandler.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRouteHandler.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRouteHandler.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRouteHandler.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRouteHandler.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRouteHandler.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRouteHandler.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRouteHandler.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppRouteHandler~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/App/Routing/DeepLinkParser.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/DeepLinkParser.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/DeepLinkParser.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/DeepLinkParser.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/DeepLinkParser.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/DeepLinkParser.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/DeepLinkParser.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/DeepLinkParser.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/DeepLinkParser~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/AppDelegate.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MovieDetails/Data/LiveMovieDetailsRepository.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMovieDetailsRepository.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMovieDetailsRepository.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMovieDetailsRepository.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMovieDetailsRepository.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMovieDetailsRepository.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMovieDetailsRepository.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMovieDetailsRepository.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMovieDetailsRepository~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MovieDetails/Data/MockMovieDetailsRepository.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieDetailsRepository.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieDetailsRepository.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieDetailsRepository.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieDetailsRepository.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieDetailsRepository.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieDetailsRepository.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieDetailsRepository.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieDetailsRepository~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MovieDetails/Data/MovieDetailsDTO.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsDTO.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsDTO.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsDTO.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsDTO.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsDTO.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsDTO.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsDTO.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsDTO~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MovieDetails/Domain/MovieDetails.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetails.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetails.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetails.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetails.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetails.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetails.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetails.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetails~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MovieDetails/Domain/MovieDetailsRepository.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsRepository.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsRepository.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsRepository.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsRepository.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsRepository.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsRepository.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsRepository.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsRepository~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MovieDetails/Presentation/MovieDetailsCoordinator.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsCoordinator.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsCoordinator.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsCoordinator.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsCoordinator.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsCoordinator.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsCoordinator.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsCoordinator.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsCoordinator~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MovieDetails/Presentation/MovieDetailsNextScreenView.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsNextScreenView.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsNextScreenView.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsNextScreenView.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsNextScreenView.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsNextScreenView.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsNextScreenView.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsNextScreenView.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsNextScreenView~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MovieDetails/Presentation/MovieDetailsScreenState.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsScreenState.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsScreenState.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsScreenState.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsScreenState.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsScreenState.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsScreenState.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsScreenState.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsScreenState~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MovieDetails/Presentation/MovieDetailsView.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsView.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsView.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsView.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsView.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsView.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsView.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsView.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsView~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MovieDetails/Presentation/MovieDetailsViewModel.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModel.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModel.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModel.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModel.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModel.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModel.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModel.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModel~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MovieDetails/Presentation/MovieDetailsViewModeling.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModeling.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModeling.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModeling.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModeling.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModeling.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModeling.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModeling.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieDetailsViewModeling~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MoviesList/Data/LiveMoviesListRepository.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMoviesListRepository.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMoviesListRepository.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMoviesListRepository.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMoviesListRepository.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMoviesListRepository.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMoviesListRepository.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMoviesListRepository.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LiveMoviesListRepository~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MoviesList/Data/MockMoviesListRepository.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMoviesListRepository.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMoviesListRepository.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMoviesListRepository.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMoviesListRepository.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMoviesListRepository.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMoviesListRepository.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMoviesListRepository.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMoviesListRepository~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MoviesList/Data/MoviesListDTO.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListDTO.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListDTO.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListDTO.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListDTO.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListDTO.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListDTO.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListDTO.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListDTO~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MoviesList/Domain/MovieSummary.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieSummary.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieSummary.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieSummary.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieSummary.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieSummary.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieSummary.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieSummary.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MovieSummary~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MoviesList/Domain/MoviesListRepository.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListRepository.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListRepository.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListRepository.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListRepository.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListRepository.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListRepository.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListRepository.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListRepository~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MoviesList/Presentation/MoviesListCoordinator.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListCoordinator.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListCoordinator.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListCoordinator.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListCoordinator.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListCoordinator.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListCoordinator.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListCoordinator.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListCoordinator~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MoviesList/Presentation/MoviesListPaginator.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListPaginator.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListPaginator.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListPaginator.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListPaginator.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListPaginator.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListPaginator.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListPaginator.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListPaginator~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MoviesList/Presentation/MoviesListScreenState.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListScreenState.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListScreenState.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListScreenState.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListScreenState.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListScreenState.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListScreenState.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListScreenState.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListScreenState~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MoviesList/Presentation/MoviesListTableViewCell.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListTableViewCell.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListTableViewCell.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListTableViewCell.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListTableViewCell.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListTableViewCell.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListTableViewCell.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListTableViewCell.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListTableViewCell~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MoviesList/Presentation/MoviesListViewController.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewController.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewController.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewController.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewController.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewController.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewController.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewController.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewController~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MoviesList/Presentation/MoviesListViewModel.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModel.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModel.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModel.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModel.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModel.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModel.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModel.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModel~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Features/MoviesList/Presentation/MoviesListViewModeling.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModeling.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModeling.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModeling.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModeling.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModeling.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModeling.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModeling.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MoviesListViewModeling~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/SceneDelegate.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/SceneDelegate.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/SceneDelegate.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Foundation/AppError.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppError.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppError.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppError.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppError.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppError.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppError.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppError.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppError~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Foundation/LoadableState.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LoadableState.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LoadableState.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LoadableState.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LoadableState.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LoadableState.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LoadableState.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LoadableState.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/LoadableState~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Foundation/MockMovieCatalog.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieCatalog.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieCatalog.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieCatalog.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieCatalog.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieCatalog.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieCatalog.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieCatalog.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockMovieCatalog~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Images/ImageCaching.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageCaching.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageCaching.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageCaching.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageCaching.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageCaching.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageCaching.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageCaching.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageCaching~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Images/ImageLoading.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageLoading.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageLoading.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageLoading.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageLoading.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageLoading.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageLoading.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageLoading.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageLoading~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Images/InMemoryImageCache.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/InMemoryImageCache.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/InMemoryImageCache.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/InMemoryImageCache.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/InMemoryImageCache.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/InMemoryImageCache.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/InMemoryImageCache.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/InMemoryImageCache.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/InMemoryImageCache~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Images/MockImageServices.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockImageServices.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockImageServices.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockImageServices.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockImageServices.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockImageServices.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockImageServices.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockImageServices.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockImageServices~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Images/TMBDImageLoader.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageLoader.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageLoader.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageLoader.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageLoader.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageLoader.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageLoader.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageLoader.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageLoader~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Logging/AppLogger.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppLogger.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppLogger.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppLogger.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppLogger.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppLogger.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppLogger.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppLogger.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/AppLogger~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Networking/APIEndpoint.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/APIEndpoint.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/APIEndpoint.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/APIEndpoint.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/APIEndpoint.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/APIEndpoint.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/APIEndpoint.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/APIEndpoint.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/APIEndpoint~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Networking/HTTPMethod.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/HTTPMethod.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/HTTPMethod.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/HTTPMethod.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/HTTPMethod.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/HTTPMethod.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/HTTPMethod.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/HTTPMethod.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/HTTPMethod~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Networking/NetworkClient.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkClient.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkClient.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkClient.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkClient.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkClient.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkClient.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkClient.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkClient~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Networking/NetworkMonitoring.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkMonitoring.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkMonitoring.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkMonitoring.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkMonitoring.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkMonitoring.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkMonitoring.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkMonitoring.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkMonitoring~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Networking/TMBDApi/TMBDImageEndpoint.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageEndpoint.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageEndpoint.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageEndpoint.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageEndpoint.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageEndpoint.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageEndpoint.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageEndpoint.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMBDImageEndpoint~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Networking/TMBDApi/TMDBMovieEndpoint.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMDBMovieEndpoint.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMDBMovieEndpoint.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMDBMovieEndpoint.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMDBMovieEndpoint.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMDBMovieEndpoint.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMDBMovieEndpoint.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMDBMovieEndpoint.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/TMDBMovieEndpoint~partial.swiftmodule"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/UI/SwiftUI/RemoteImageView.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/RemoteImageView.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/RemoteImageView.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/RemoteImageView.dia",
+    "index-unit-output-path" : "/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/RemoteImageView.o",
+    "llvm-bc" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/RemoteImageView.bc",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/RemoteImageView.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/RemoteImageView.swiftdeps",
+    "swiftmodule" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/RemoteImageView~partial.swiftmodule"
+  }
+}

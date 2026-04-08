@@ -1,0 +1,23 @@
+{
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Networking/NetworkClient.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkClient.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkClient.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkClient.dia",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkClient.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkClient.swiftdeps"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Networking/NetworkMonitoring.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkMonitoring.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkMonitoring.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkMonitoring.dia",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkMonitoring.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/NetworkMonitoring.swiftdeps"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/UI/SwiftUI/RemoteImageView.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/RemoteImageView.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/RemoteImageView.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/RemoteImageView.dia",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/RemoteImageView.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/RemoteImageView.swiftdeps"
+  }
+}

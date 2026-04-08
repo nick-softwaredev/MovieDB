@@ -27,7 +27,11 @@ final class MovieDetailsCoordinator {
     self.posterURLBuilder = posterURLBuilder
   }
 
-  func showMovieDetails(for movieID: Int, animated: Bool) {
+  func showMovieDetails(
+    for movieID: Int,
+    animated: Bool,
+    onRouteRequested: @escaping (AppRoute) -> Void
+  ) {
     let viewModel = MovieDetailsViewModel(
       movieID: movieID,
       repository: repository
@@ -35,10 +39,20 @@ final class MovieDetailsCoordinator {
     let detailsView = MovieDetailsView(
       viewModel: viewModel,
       imageLoader: imageLoader,
-      posterURLBuilder: posterURLBuilder
+      posterURLBuilder: posterURLBuilder,
+      onRouteRequested: onRouteRequested
     )
     let hostingController = UIHostingController(rootView: detailsView)
     hostingController.title = "Movie Details"
+    hostingController.navigationItem.largeTitleDisplayMode = .never
+
+    navigationController.pushViewController(hostingController, animated: animated)
+  }
+
+  func showNextScreen(animated: Bool) {
+    let nextScreenView = MovieDetailsNextScreenView()
+    let hostingController = UIHostingController(rootView: nextScreenView)
+    hostingController.title = "Next Screen"
     hostingController.navigationItem.largeTitleDisplayMode = .never
 
     navigationController.pushViewController(hostingController, animated: animated)

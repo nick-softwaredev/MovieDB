@@ -49,10 +49,21 @@ final class AppCoordinator {
     switch route {
     case let .movieDetails(movieID):
       showMovieDetails(for: movieID, animated: true)
+    case .movieDetailsNextScreen:
+      showMovieDetailsNextScreen(animated: true)
     }
   }
 
   private func showMovieDetails(for movieID: Int, animated: Bool) {
-    movieDetailsCoordinator.showMovieDetails(for: movieID, animated: animated)
+    movieDetailsCoordinator.showMovieDetails(
+      for: movieID,
+      animated: animated
+    ) { [weak self] route in
+      self?.handle(route: route)
+    }
+  }
+
+  private func showMovieDetailsNextScreen(animated: Bool) {
+    movieDetailsCoordinator.showNextScreen(animated: animated)
   }
 }

@@ -1,0 +1,23 @@
+{
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Images/ImageLoading.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageLoading.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageLoading.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageLoading.dia",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageLoading.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/ImageLoading.swiftdeps"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Images/InMemoryImageCache.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/InMemoryImageCache.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/InMemoryImageCache.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/InMemoryImageCache.dia",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/InMemoryImageCache.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/InMemoryImageCache.swiftdeps"
+  },
+  "/Users/Nick.Todorashko/Documents/demos/MovieDB/MovieDB/Shared/Images/MockImageServices.swift" : {
+    "const-values" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockImageServices.swiftconstvalues",
+    "dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockImageServices.d",
+    "diagnostics" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockImageServices.dia",
+    "object" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockImageServices.o",
+    "swift-dependencies" : "/Users/Nick.Todorashko/Documents/demos/MovieDB/.deriveddata/Build/Intermediates.noindex/MovieDB.build/Debug-iphoneos/MovieDB.build/Objects-normal/arm64/MockImageServices.swiftdeps"
+  }
+}

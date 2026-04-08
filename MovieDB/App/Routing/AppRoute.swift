@@ -7,4 +7,5 @@
 
 enum AppRoute: Equatable {
   case movieDetails(movieID: Int)
+  case movieDetailsNextScreen
 }

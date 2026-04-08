@@ -12,15 +12,18 @@ struct MovieDetailsView<ViewModel: MovieDetailsViewModeling>: View {
   @StateObject private var viewModel: ViewModel
   private let imageLoader: ImageLoading
   private let posterURLBuilder: PosterURLBuilding
+  private let onRouteRequested: (AppRoute) -> Void
 
   init(
     viewModel: ViewModel,
     imageLoader: ImageLoading,
-    posterURLBuilder: PosterURLBuilding
+    posterURLBuilder: PosterURLBuilding,
+    onRouteRequested: @escaping (AppRoute) -> Void
   ) {
     _viewModel = StateObject(wrappedValue: viewModel)
     self.imageLoader = imageLoader
     self.posterURLBuilder = posterURLBuilder
+    self.onRouteRequested = onRouteRequested
   }
 
   var body: some View {
@@ -58,6 +61,11 @@ struct MovieDetailsView<ViewModel: MovieDetailsViewModeling>: View {
             Text(movieDetails.overview)
               .font(.body)
               .foregroundStyle(.primary)
+
+            Button("Open Next Screen") {
+              onRouteRequested(.movieDetailsNextScreen)
+            }
+            .buttonStyle(.borderedProminent)
           }
           .frame(maxWidth: .infinity, alignment: .leading)
           .padding(24)
